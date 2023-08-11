@@ -1,0 +1,10 @@
+name: lets try the Shell
+
+on: [push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo a string
+              run: echo "Hello, This is my First GitHub Action"
